@@ -40,7 +40,7 @@ export default async (request, context) => {
         "Content-Type": "application/json"
       },
       body: JSON.stringify({
-  model: "mistralai/mistral-nemo:free",
+  model: "mistralai/mistral-small-24b-instruct-2501:free",
   messages: [
     { role: "system", content: systemPrompt },
     { role: "user", content: message }
@@ -65,3 +65,4 @@ export default async (request, context) => {
   }
 
 };
+
