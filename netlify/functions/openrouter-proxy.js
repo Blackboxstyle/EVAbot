@@ -35,7 +35,7 @@ export default async (request, context) => {
       method: "POST",
       headers: {
         "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
-        "HTTP-Referer": "https://evabot-3rob.netlify.app", // Placeholder para tu URL real
+        "HTTP-Referer": "https://3robelectricidad.netlify.app/", // Placeholder para tu URL real
         "X-Title": "Chatbot del Salón 3roB",
         "Content-Type": "application/json"
       },
@@ -63,4 +63,5 @@ export default async (request, context) => {
       headers: { "Content-Type": "application/json" }
     });
   }
+
 };
