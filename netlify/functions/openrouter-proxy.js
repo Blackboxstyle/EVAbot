@@ -91,7 +91,7 @@ USO DE LA INFORMACIÓN
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "mistralai/devstral-small-2505:free",
+        model: "openrouter/free",
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: message },
@@ -133,6 +133,7 @@ USO DE LA INFORMACIÓN
     };
   }
 }
+
 
 
 
